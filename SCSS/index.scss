@@ -1,0 +1,219 @@
+@import'cssreset';
+@import'nav-bar';
+@import'footer';
+
+.content{
+    background-color:#f4dbd7;
+    .picture{
+        width: 550px;
+        margin: 0 auto;
+        img{
+            width: 550px;
+            position: absolute;
+            top: 17%;
+            z-index: 100;
+        }
+        #div1{
+            width: 300px;
+            height: 500px;
+            background-color: #e9c9ca;
+            position: absolute;
+            top: 16%;
+            z-index: 2;
+        }
+        #div2{
+            width: 500px;
+            height: 500px;
+            border: solid;
+            border-width: 5px;
+            border-color: #e9c9ca;
+            position: absolute;
+            top: 20%;
+            z-index: 3;
+        }
+    }
+    .background{
+        margin: 0 auto;
+        width: 1550px;
+        img{
+            width: 1550px;
+            height: 800px;
+            z-index: 1;
+        }
+    }
+    .click{
+        position: absolute;
+        width: 100%;
+        top: 15%;
+        #clickhere{
+            position: absolute;
+            transform:rotate(350deg);
+            width: 150px;
+            margin-left: 35%;
+            z-index: 102;
+            display: none;
+        }
+        #clickhere2{
+            position: absolute;
+            transform:rotate(20deg);
+            width: 150px;
+            margin-left: 60%;
+            margin-top: 3%;
+            z-index: 102;
+            display: none;
+        }
+        #clickhere3{
+            position: absolute;
+            transform:rotate(30deg);
+            width: 150px;
+            margin-left: 55%;
+            margin-top: 8%;
+            z-index: 102;
+            display: none;
+            
+        }
+        #clickhere4{
+            position: absolute;
+            transform:rotate(40deg);
+            width: 150px;
+            margin-left: 60%;
+            margin-top: 23%;
+            z-index: 102;
+            display: none;
+        }
+        #clickhere5{
+            position: absolute;
+            transform:rotate(340deg);
+            width: 150px;
+            margin-left: 26%;
+            margin-top: 18%;
+            z-index: 102;
+            display: none;
+        }
+        input{
+            width: 130px;
+            height: 130px;
+            background: transparent;
+            border-style: none;
+            background-size: 100%;
+            cursor: pointer;
+            outline: none;
+        }
+        #clickdot1{
+            position: absolute;
+            margin-left: 38%;
+            margin-top: 5%;
+            z-index: 101;
+            display: none;
+        }
+        #clickdot2{
+            position: absolute;
+            margin-left: 57%;
+            margin-top: 8%;
+            z-index: 102;
+            display: none;
+        }
+        #clickdot3{
+            position: absolute;
+            margin-left: 53%;
+            margin-top: 12%;
+            z-index: 102;
+            display: none;
+            
+        }
+        #clickdot4{
+            position: absolute;
+            margin-left: 55%;
+            margin-top: 27%;
+            z-index: 102;
+            display: none;
+        }
+        #clickdot5{
+            position: absolute;
+            margin-left: 30%;
+            margin-top: 22%;
+            z-index: 102;
+            display: none;
+        }
+
+    }
+    //手寫紙
+    .paper{
+        width: 380px;
+        margin: 0 auto;
+        .paper2{ 
+            position: absolute;
+            top: 550px;
+            width: 350px;
+            height: 200px;
+            background-color: white;
+            border-style: double;
+            border-width:5px ;
+            border-color:	#ADADAD;
+            z-index:5;
+            border-radius: 5%;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            text-decoration: underline 	#ADADAD;
+            font-family: 'Noto Serif TC', serif;
+            font-size: 20px;
+            display: none;
+            div{
+                display: none;
+            }
+            #story1{
+                display: block;
+            }
+            span{
+                color: rgb(99, 16, 44);
+            }
+    }
+    
+}
+
+//flower css
+.flowerplace{
+    width: 1000px;
+    margin: 0 auto;
+}
+.decoration1 {
+    padding:0px 0;
+    position:absolute;
+    width: 330px;
+    height: 330px;
+    top: 6%;
+    z-index: 95;   
+    visibility:hidden;
+    path{
+        fill: pink;
+    }
+  }
+
+  .decoration2{
+    padding:0px 0;
+    position:absolute;
+    width: 260px;
+    height: 260px;
+    top: 45%;
+    margin-left: 700px;
+    z-index: 96;
+    visibility:hidden;
+    path{
+        fill: white;
+    }
+  }
+  .decoration3{
+    padding:0px 0;
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    top: 75%;
+    margin-left: 80px;
+    z-index: 97; 
+    visibility:hidden;
+    path{
+        fill: rgb(145, 50, 74);
+    }
+  }
+}
